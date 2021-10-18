@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Squat",
+        "desc": "Over the years, we’ve tackled the full spectrum of fitness and gym routines, each with their own distinct advantages",
+        "img": "https://i.ibb.co/T1DdJh0/alora-griffiths-Tuzrz-Arccvc-unsplash.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Leg press",
+        "desc": " While there’s never going to be one definitive “WORKOUT LIST TO END ALL WORKOUT LISTS",
+        "img": "https://i.ibb.co/tXV5bJ1/Man-on-leg-press-machine.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Leg extension",
+        "desc": "These are moves that will get you strong, increase your endurance, grow your muscles",
+        "img": "https://i.ibb.co/dWFqhF4/Bodybuilder-Doing-Single-Leg-Extension.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Wall sit",
+        "desc": "So whether you’re a CrossFitter, a powerlifter, or bodybuilder",
+        "img": "https://i.ibb.co/T0CY9PJ/wall-sit-isometric-exercises.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Deadlift",
+        "desc": "Odds are you’re probably doing most of them but scroll through to see if there are any missing in your repertoire",
+        "img": "https://i.ibb.co/PcpsX1v/deadlift-workout-for-back-royalty-free-image-527680187-1553003041.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Stiff-legged deadlift",
+        "desc": " if done properly, will predominantly engage your back and legs",
+        "img": "https://i.ibb.co/kJvLgqK/dumbbell-stiff-leg-deadlift.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Leg curl",
+        "desc": " It goes to show that not all essential exercises are about clanging plates and bending bars",
+        "img": "https://i.ibb.co/ZJCgJMS/legcurl.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Snatch",
+        "desc": "whatever you do, don’t lose your form in favor of reps. Keep those legs straight for maximum payoff",
+        "img": "https://i.ibb.co/zxr4yJM/snatch.jpg"
+    }
+]

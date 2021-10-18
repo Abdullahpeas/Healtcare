@@ -1,0 +1,25 @@
+.footer{
+    background-color: whitesmoke;
+}
+.logo{
+    color: tomato;
+    
+}
+.icon-style{
+    font-size: 35px;
+    color: rgb(0, 112, 182)
+}
+
+.icon-style-instagram{
+    font-size: 35px;
+    color: rgb(240, 169, 148);
+}
+.icon-style-twitter{
+    font-size: 35px;
+    color: rgb(50, 50, 255);
+}
+
+.icon-style-phone{
+    font-size: 35px;
+    color: rgb(151, 102, 102);
+}
