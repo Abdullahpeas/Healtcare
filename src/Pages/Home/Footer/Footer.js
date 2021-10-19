@@ -1,12 +1,13 @@
 import React from 'react';
 import './Footer.css';
+import image from '../../../images/logo/CF-Logo-16x9-wide-1024x439-removebg-preview.png';
 const Footer = () => {
     return (
         <>
 
             <div className="row mt-5 footer overflow-hidden">
                 <div className="col-md-4 col-lg-4 col-12  mt-3">
-                    <h5><span className="logo">CROSSFIT</span> GYM</h5>
+                    <img width="190px" src={image} alt="" />
                 </div>
                 <div className="col-md-4 cols-12 col-lg-4 mt-3">
                     <h4>Opening Hours</h4>

@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import logo from '../../../images/logo/CF-Logo-16x9-wide-1024x439-removebg-preview.png';
 import './Header.css';
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
             <Navbar variant="light" bg="light" collapseOnSelect expand="lg" sticky="top">
                 <Container>
 
-                    <Navbar.Brand ><span className="logo-style">CROSSFIT</span> GYM
+                    <Navbar.Brand ><img width="110px" src={logo} alt="" />
                     </Navbar.Brand>
 
                     <Navbar.Toggle />

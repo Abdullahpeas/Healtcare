@@ -6,7 +6,7 @@ import useAuth from '../../../hooks/useAuth';
 
 const Register = () => {
 
-    const { signInUsingGoogle, handleUserRegister, setName, setUserName, user, setError } = useAuth();
+    const { signInUsingGoogle, handleUserRegister, setName, setUserName, user, setError, IsLoading, setIsLoading } = useAuth();
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
@@ -31,9 +31,7 @@ const Register = () => {
             .then(result => {
                 history.push(redirect_uri)
             })
-            .catch(error => {
-                setError(error.message)
-            })
+            .finally(() => setIsLoading(false))
     }
 
 
@@ -59,7 +57,6 @@ const Register = () => {
 
     const handleNameChange = e => {
         setName(e.target.value)
-
 
     }
     return (

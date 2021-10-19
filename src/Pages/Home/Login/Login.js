@@ -5,7 +5,7 @@ import useAuth from '../../../hooks/useAuth';
 
 
 const Login = () => {
-    const { signInUsingGoogle, handleUserLogin, setError } = useAuth();
+    const { signInUsingGoogle, handleUserLogin, setError, isLoading, setIsLoading } = useAuth();
 
 
     const [email, setEmail] = useState("");
@@ -21,9 +21,7 @@ const Login = () => {
             .then(result => {
                 history.push(redirect_uri)
             })
-            .catch(error => {
-                setError(error.message)
-            })
+            .finally(() => setIsLoading(false))
     }
 
     const handleEmail = (e) => {
@@ -39,6 +37,7 @@ const Login = () => {
             .then(result => {
                 history.push(redirect_uri)
             })
+            .finally(() => setIsLoading(false))
 
 
     }
