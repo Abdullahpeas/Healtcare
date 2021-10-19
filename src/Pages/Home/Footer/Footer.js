@@ -3,11 +3,12 @@ import './Footer.css';
 const Footer = () => {
     return (
         <>
-            <div className="row mt-5 footer">
-                <div className="col-md-3 mt-3">
+
+            <div className="row mt-5 footer overflow-hidden">
+                <div className="col-md-4 col-lg-4 col-12  mt-3">
                     <h5><span className="logo">CROSSFIT</span> GYM</h5>
                 </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 cols-12 col-lg-4 mt-3">
                     <h4>Opening Hours</h4>
                     <table className="table">
 
@@ -59,31 +60,26 @@ const Footer = () => {
                     </table>
 
                 </div>
-                <div className="col-md-3 mt-3">
-                    <h4>Connect With Us</h4>
-                    <i class="fab fa-facebook icon-style"></i>
-                    <i class="fab fa-instagram icon-style-instagram mx-5"></i>
-                    <i class="fab fa-twitter icon-style-twitter"></i>
-                    <p>Our new Gym, Fitness & Sports theme has been choosed site of the day theme. Thank you very much </p>
 
-                </div>
-                <div className="col-md-3 mt-3">
+                <div className="col-md-4 col-lg-4 cols-12 mt-3">
                     <div>
                         <h4>Contact</h4>
-                        <i class="fas fa-phone icon-style-phone"></i>
+                        <i className="fas fa-phone icon-style-phone"></i>
                         <h5>08000 99911122
                         </h5>
                         <p>Hotline available 24 hours </p>
                     </div>
 
                     <div>
-                        <i class="far fa-envelope icon-style-email icon-style-phone"></i>
+                        <i className="far fa-envelope icon-style-email icon-style-phone"></i>
                         <h5>EMAIL US</h5>
                         <p>mdabdullah533000@gmail.com</p>
                     </div>
                 </div>
 
             </div>
+
+
         </>
     );
 };

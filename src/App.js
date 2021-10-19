@@ -10,6 +10,9 @@ import ServiceDetail from './Pages/Home/ServiceDetail/ServiceDetail';
 import PrivateRoute from './Pages/Home/PrivateRoute/PrivateRoute';
 import Services from './Pages/Home/Services/Services';
 import Footer from './Pages/Home/Footer/Footer';
+import Trainer from './Pages/Home/Trainer/Trainer';
+import About from './Pages/Home/About/About';
+import NotFound from './Pages/Home/NotFound/NotFound';
 
 
 
@@ -20,6 +23,9 @@ function App() {
         <Router>
           <Header></Header>
           <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
             <Route exact path="/">
               <Home></Home>
             </Route>
@@ -38,11 +44,23 @@ function App() {
             <Route path="/services">
               <Services></Services>
             </Route>
+            <PrivateRoute path="/trainer">
+              <Trainer></Trainer>
+            </PrivateRoute>
+
+            <PrivateRoute path="/about">
+              <About></About>
+            </PrivateRoute>
+
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+
           </Switch>
           <Footer></Footer>
         </Router>
       </AuthProvider>
-    </div>
+    </div >
   );
 }
 

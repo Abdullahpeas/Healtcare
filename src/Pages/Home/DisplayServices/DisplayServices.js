@@ -11,10 +11,10 @@ const DisplayServices = (props) => {
         history.push(`services/${id}`)
     }
     return (
-        <div>
-            <div className="col">
+        <div className="col-lg-6 col-12 col-md-6 overflow-hidden">
+            <div className="col ">
                 <div className="card h-100 w-75 mx-auto">
-                    <img className=' img-style' src={img} alt="..." />
+                    <img className='img-fluid img-style' src={img} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>
                         <p className="card-text">{desc}</p>

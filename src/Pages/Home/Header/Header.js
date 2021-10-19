@@ -7,7 +7,7 @@ const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <div>
-            <Navbar expand="lg" variant="light" bg="light">
+            <Navbar variant="light" bg="light" collapseOnSelect expand="lg" sticky="top">
                 <Container>
 
                     <Navbar.Brand ><span className="logo-style">CROSSFIT</span> GYM
@@ -17,6 +17,10 @@ const Header = () => {
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/services">Services</Nav.Link>
+
+                        <Nav.Link as={Link} to="/trainer">Trainers</Nav.Link>
+                        <Nav.Link as={Link} to="/about">About Us</Nav.Link>
+
                         {
                             user?.email && <span> {user?.displayName}</span>
                         }

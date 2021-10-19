@@ -10,11 +10,14 @@ const Services = () => {
     }, [])
     return (
         <div>
-            <div>
+            <div className="container overflow-hidden">
                 <h2 className="mt-5 pb-5">Our Services</h2>
-                <div className="row row-cols-1 row-cols-md-2 g-4">
+                <div className="row row-cols-1 row-cols-md-2 g-4  col-lg-12 col-12">
                     {
-                        gyms.map(gym => <DisplayServices gym={gym}></DisplayServices>)
+                        gyms.slice(0, 8).map(gym =>
+                            <DisplayServices
+                                key={gym.key}
+                                gym={gym}></DisplayServices>)
                     }
                 </div>
             </div>

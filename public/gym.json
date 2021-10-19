@@ -46,5 +46,41 @@
         "name": "Snatch",
         "desc": "whatever you do, don’t lose your form in favor of reps. Keep those legs straight for maximum payoff",
         "img": "https://i.ibb.co/zxr4yJM/snatch.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Anderson",
+        "specialist": "Leg",
+        "img": "https://i.ibb.co/r6xjymn/trainer1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Tom Alice",
+        "specialist": "Dead lift",
+        "img": "https://i.ibb.co/JnDfv04/t4.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Jemmy",
+        "specialist": "Shoulder",
+        "img": "https://i.ibb.co/mGtVbjS/Portrait-of-a-happy-personal-trainer-working-at-the-gym-and-looking-at-the-camera-smiling-fitness-co.jpg"
+    },
+    {
+        "id": 12,
+        "name": "John Watson",
+        "specialist": "Squat",
+        "img": "https://i.ibb.co/FhY1JBG/t5.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Jamey Brock",
+        "specialist": "Snatch",
+        "img": "https://i.ibb.co/VDGXV6c/t3.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Edge doe",
+        "specialist": "Curl",
+        "img": "https://i.ibb.co/82rz15b/t7.jpg"
     }
 ]
